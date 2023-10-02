@@ -1,0 +1,76 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "cpf": "123.456.789-00",
+      "nome": "João",
+      "email": "joao@gmail.com",
+      "endereco": "Rua A, 123",
+      "telefone": "(11) 1234-5678"
+    },
+    {
+      "id": 2,
+      "cpf": "987.654.321-00",
+      "nome": "José",
+      "email": "jose@gmail.com",
+      "endereco": "Rua B, 456",
+      "telefone": "(11) 9876-5432"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "clienteId": 1,
+      "data": "2023-10-02T10:00:00.000Z",
+      "status": "EM ABERTO",
+      "itens": [
+        {
+          "id": 1,
+          "nome": "Calça",
+          "preco": 20.0,
+          "prazo": 2
+        },
+        {
+          "id": 2,
+          "nome": "Camisa",
+          "preco": 15.0,
+          "prazo": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "clienteId": 1,
+      "data": "2023-10-01T14:00:00.000Z",
+      "status": "FINALIZADO",
+      "itens": [
+        {
+          "id": 3,
+          "nome": "Camiseta",
+          "preco": 10.0,
+          "prazo": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "clienteId": 2,
+      "data": "2023-09-30T08:00:00.000Z",
+      "status": "AGUARDANDO PAGAMENTO",
+      "itens": [
+        {
+          "id": 4,
+          "nome": "Meia",
+          "preco": 5.0,
+          "prazo": 1
+        },
+        {
+          "id": 5,
+          "nome": "Cueca",
+          "preco": 3.0,
+          "prazo": 1
+        }
+      ]
+    }
+  ]
+}
