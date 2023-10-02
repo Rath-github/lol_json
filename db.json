@@ -15,6 +15,22 @@
       "email": "jose@gmail.com",
       "endereco": "Rua B, 456",
       "telefone": "(11) 9876-5432"
+    },
+    {
+      "id": 3,
+      "cpf": "101.213.141-51",
+      "nome": "Joana",
+      "email": "joana@gmail.com",
+      "endereco": "Rua C, 789",
+      "telefone": "(11) 1012-1130"
+    },
+    {
+      "id": 4,
+      "cpf": "987.654.321-00",
+      "nome": "Joaquina",
+      "email": "joaquina@gmail.com",
+      "endereco": "Rua D, 101",
+      "telefone": "(11) 1919-5050"
     }
   ],
   "pedidos": [
@@ -47,7 +63,7 @@
         {
           "id": 3,
           "nome": "Camiseta",
-          "preco": 10.0,
+          "preço": 10.0,
           "prazo": 1
         }
       ]
@@ -71,6 +87,24 @@
           "prazo": 1
         }
       ]
+    }
+  ],
+  "funcionarios": [
+    {
+      "id": 1,
+      "cpf": "111.222.333-44",
+      "nome": "Maria",
+      "email": "maria@gmail.com",
+      "senha": "1234",
+      "cargo": "Atendente"
+    },
+    {
+      "id": 2,
+      "cpf": "222.333.444-55",
+      "nome": "Mário",
+      "email": "mario@gmail.com",
+      "senha": "1234",
+      "cargo": "Gerente"
     }
   ]
 }
