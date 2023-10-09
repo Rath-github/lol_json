@@ -87,7 +87,106 @@
           "prazo": 1
         }
       ]
-    }
+    },
+    {
+      "id": 4,
+      "clienteId": 1,
+      "data": "2023-10-05T15:00:00.000Z",
+      "status": "EM ABERTO",
+      "itens": [
+        {
+          "id": 6,
+          "nome": "Jaqueta",
+          "preco": 30.0,
+          "prazo": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "clienteId": 1,
+      "data": "2023-10-06T16:00:00.000Z",
+      "status": "REJEITADO",
+      "itens": [
+        {
+          "id": 7,
+          "nome": "Boné",
+          "preco": 5.0,
+          "prazo": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "clienteId": 1,
+      "data": "2023-10-07T17:00:00.000Z",
+      "status": "CANCELADO",
+      "itens": [
+        {
+          "id": 8,
+          "nome": "Tênis",
+          "preco": 40.0,
+          "prazo": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "clienteId": 1,
+      "data": "2023-10-08T18:00:00.000Z",
+      "status": "RECOLHIDO",
+      "itens": [
+        {
+          "id": 9,
+          "nome": "Mochila",
+          "preco": 25.0,
+          "prazo": 2
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "clienteId": 1,
+      "data": "2023-10-09T19:00:00.000Z",
+      "status": "FINALIZADO",
+      "itens": [
+        {
+          "id": 10,
+          "nome": "Óculos de sol",
+          "preco": 15.0,
+          "prazo": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "clienteId": 1,
+      "data": "2023-10-10T20:00:00.000Z",
+      "status": "FINALIZADO",
+      "itens": [
+        {
+          "id": 11,
+          "nome": "Relógio",
+          "preco": 30.0,
+          "prazo": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "clienteId": 1,
+      "data": "2023-10-11T21:00:00.000Z",
+      "status": "RECOLHIDO",
+      "itens": [
+        {
+          "id": 12,
+          "nome": "Bolsa",
+          "preco": 20.0,
+          "prazo": 2
+        }
+      ]
+    },
+   
   ],
   "funcionarios": [
     {
@@ -107,4 +206,3 @@
       "cargo": "Gerente"
     }
   ]
-}
